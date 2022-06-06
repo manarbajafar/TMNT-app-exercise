@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup android:id="@+id/turtle_group"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/leo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leo"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/mike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mike" />
+
+        <RadioButton
+            android:id="@+id/don"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don" />
+
+        <RadioButton
+            android:id="@+id/raph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raph" />
+    </RadioGroup>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/turtle"
+        android:src="@drawable/leo"/>
+
+</LinearLayout>
